@@ -667,7 +667,6 @@
 		  	$.each( options, function( key, value ) {
 				that._setOption( key, value );
 				if ( key === "startCollapsed") {
-					console.log(that.opti);
 					that.element
 					.find('.'+opti.collapsedClass+', .'+opti.expandedClass+', .'+opti.leafClass)
 					.removeClass(opti.collapsedClass+' '+opti.expandedClass+' '+opti.leafClass);

@@ -659,7 +659,6 @@
 
 		},
 		
-		
 		_setOptions: function( options ) {
 		  	var that = this,
 				opti = that.option();
